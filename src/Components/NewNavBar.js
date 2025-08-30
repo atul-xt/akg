@@ -316,6 +316,7 @@ export default function NewNavBar() {
                     }
                   </div>
                 </div>
+                
 
                 <div className="col-span-3 w-full relative max-lg:hidden">
                   <div
