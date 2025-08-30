@@ -103,16 +103,16 @@ export const Academics = {
     sublinks: {
         "Schools": [
             {
-                name: "AKGU School of Engineering and Technology",
+                name: "School of Computer Science Engineering & Technology",
+                url: "/school-of-computer-science-engineering-and-technology"
+            },
+            {
+                name: "School of Engineering & Technology",
                 url: "/school-of-engineering-and-technology"
             },
             {
-                name: "AKGU School of Business Studies",
+                name: "School of Business Studies",
                 url: "/school-of-business-studies"
-            },
-            {
-                name: "AKGU School of Humanities & Social Sciences",
-                url: "/school-of-humanities-and-social-sciences"
             },
         ],
         "Academics": [
