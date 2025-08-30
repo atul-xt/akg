@@ -293,7 +293,7 @@ export default function NewNavBar() {
                                     text-black rounded-lg shadow-lg`}
             >
               <div className="grid grid-cols-12">
-                <div className="col-span-9 max-md:col-span-12 p-0 transition-all">
+                <div className="col-span-9 max-lg:col-span-12 p-0 transition-all">
                   <div className=" w-full h-32 sm:h-16 flex justify-center items-center">
                     {
                       Object.keys(Programs.sublinks)?.map((key, index) => <button onClick={() => { setActiveTab(key) }} key={index}
@@ -301,7 +301,7 @@ export default function NewNavBar() {
                         {key}</button>)
                     }
                   </div>
-                  <div className="flex max-md:flex-col p-2">
+                  <div className="flex max-lg:flex-col p-2">
                     {
                       Object.keys(Programs.sublinks[activeTab])?.map((key, index) => {
                         if (key === 'Graduate Program') {
@@ -317,7 +317,7 @@ export default function NewNavBar() {
                   </div>
                 </div>
 
-                <div className="col-span-3 w-full relative max-md:hidden">
+                <div className="col-span-3 w-full relative max-lg:hidden">
                   <div
                     className="absolute inset-0 bg-cover bg-center rounded-lg shadow-md"
                     style={{
